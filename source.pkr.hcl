@@ -6,7 +6,7 @@ source "hcloud" "base" {
   snapshot_labels = {
     name = "base"
   }
-  snapshot_name   = "base"
+  snapshot_name   = var.snapshot_name
   token           = var.hcloud_token
 
 }
